@@ -1,0 +1,246 @@
+<!doctype html>
+<html lang="en">
+
+<head>
+    <!-- Required meta tags -->
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+
+    <!-- Font Awesome CDN  -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.14.0/css/all.min.css"
+        integrity="sha512-1PKOgIY59xJ8Co8+NE6FZ+LOAZKjy+KY8iq0G4B3CyeY6wYHN3yt9PW0XpSriVlkMXe40PTKnXrLnZ9+fkDaog=="
+        crossorigin="anonymous" />
+
+    <!-- CSS -->
+    <link rel="stylesheet" href="index.css">
+
+    <title>Photography Landing Page using HTML CSS and JavaScript - Coding Torque</title>
+</head>
+
+<body>
+    <nav id="navbar" class="navbar"><a href="#"></a></nav>
+
+    <div class="container">
+        <!--=============== NAVIGATION MENU ===============-->
+
+        <div class="menu">
+            <!-- <a href="#welcome-section" class="menu-icon fas fa-home"></a> -->
+            <a href="#about" class="menu-icon fas fa-user"></a>
+            <a href="#projects" class="menu-icon fas fa-code"></a>
+            <a href="#experience" class="menu-icon fas fa-briefcase"></a>
+            <a href="#contact" class="menu-icon fas fa-envelope"></a>
+        </div>
+
+        <!--=============== MAIN "WINDOW" ===============-->
+
+        <div class="portfolio">
+            <!--=============== HEADER SECTION ===============-->
+
+            <section class="header">
+                <img class="header-img"
+                    src="https://media.licdn.com/dms/image/D4D03AQEY7ahViE2I1Q/profile-displayphoto-shrink_200_200/0/1675522379125?e=1688601600&v=beta&t=W_oT2FqLQUxVyyuRI-BOAVOVb5Sp5Tcjr8ubw-wZiK4"
+                    alt="" />
+                <h1 id="nameHeading">Kishan Baldaniya</h1>
+                <h2>Software Developer</h2>
+                <div class="socials">
+                    <a href="https://www.linkedin.com/in/kishan-baldaniya/" target="_blank" class="fab fa-linkedin-in"
+                        id="profile-link"></a>
+                    <a href="https://github.com/kbbaldaniya" target="_blank" class="fab fa-github"></a>
+                </div>
+                <!-- <a href="" class="cta">DownIoad CV</a> -->
+            </section>
+
+            <!--=============== CONTENT SECTION ===============-->
+
+            <div class="content">
+                <!--=============== HOME ===============-->
+
+                <!-- <section class="content-card home" id="welcome-section">
+                    <h1>Hello, I am Kishan Baldaniya</h1>
+                </section> -->
+
+                <!--=============== ABOUT ME ===============-->
+
+                <section class="content-card about" id="about">
+                    <h1>About me</h1>
+                    <div class="about-item about-me">
+                        <p>
+                            To get responsibility & challenging position that will allow me to explore my abilities,
+                            skill & sense of dedication towards my duties with a sole aim of seeing the progress of
+                            organization & to adopt the challenging global scenario.
+                        </p>
+                        <p>
+                            I opt to work for an organization where I can utilize my skills and which gives me more
+                            adequate opportunities to expand my knowledge and improve my skills.
+                        </p>
+                    </div>
+                    <div class="col-2">
+                        <div class="about-item skills">
+                            <h1>Skills</h1>
+                            <span class="skill">React</span>
+                            <span class="skill">Redux</span>
+                            <span class="skill">JavaScript</span>
+                            <span class="skill">TypeScript</span>
+                            <span class="skill">Next.js</span>
+                            <span class="skill">Bootstrap</span>
+                            <span class="skill">Tailwind CSS</span>
+                            <span class="skill">Node.js</span>
+                            <span class="skill">HTML5</span>
+                            <span class="skill">CSS3</span>
+                            <span class="skill">Git</span>
+                            <span class="skill">Jira</span>
+                            <span class="skill">Postman</span>
+                        </div>
+
+                        <div class="about-item languages">
+                            <h1>Languages</h1>
+                            <div class="language">
+                                <p>English</p>
+                                <span class="bar"><span class="english"></span></span>
+                            </div>
+                            <div class="language">
+                                <p>Hindi</p>
+                                <span class="bar"><span class="hindi"></span></span>
+                            </div>
+                            <div class="language">
+                                <p>Gujarati</p>
+                                <span class="bar"><span class="gujarati"></span></span>
+                            </div>
+                        </div>
+                    </div>
+                </section>
+
+                <!--=============== PROJECTS ===============-->
+
+                <section class="content-card projects" id="projects">
+                    <h1>Projects</h1>
+                    <div class="col-2 project-list">
+                        <div class="project-tile">
+                            <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTjsfS2auAoweDrHZ8odbIgkrCfCRh5UBaFENlfKnLcY5_n4XBeHh7KoNDpaHBN1J4_Ux8&usqp=CAU"
+                                alt="Age-care" />
+                            <div class="overlay">
+                                <div class="project-description">
+                                    <h3>Age-care Management platform</h3>
+                                    <hr />
+                                    <p>
+                                        &cir; This platform provides smart device connection for health eating of
+                                        client.
+                                    </p>
+                                    <p> &cir; It is mainly used to track health status.</p>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="project-tile">
+                            <img src="https://www.rexcelitservices.com/wp-content/uploads/2017/04/cms_development_system.png"
+                                alt="CMS" />
+                            <div class="overlay">
+                                <div class="project-description">
+                                    <h3>CMS platform</h3>
+                                    <hr />
+                                    <p>
+                                        &cir; This project is all about maintaining all data of client, talent as well
+                                        as the whole recruiting process and managing projects and talent.
+                                    </p>
+                                    <p>
+                                        &cir; This platform is a great asset to all marketing leads as they can find
+                                        projects and talent in abundle manner from here.
+                                    </p>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="project-tile">
+                            <img src="https://images.jdmagicbox.com/comp/thrissur/03/9999pmulblrstd1100403/catalogue/infratech-educational-services-west-fort-thrissur-education-consultants-0TXxmKjqCMqBzuJ.jpg"
+                                alt="Education" />
+                            <div class="overlay">
+                                <div class="project-description">
+                                    <h3>Educational platform</h3>
+                                    <hr />
+                                    <p>
+                                        &cir; It was a platform for educational purposes, we can say as it was an
+                                        education platform for learners and was having online courses and many more i.e,
+                                        upGrade,udemy.
+                                    </p>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="project-tile">
+                            <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTXRBXLSMj2B0Mv3GCpYM5QRcTNIDwpvrsRB39wYJNKe67oK2b5UAgrD-HzR2o_WXDjU-g&usqp=CAU"
+                                alt="Speakers" />
+                            <div class="overlay">
+                                <div class="project-description">
+                                    <h3>Speakers handling platform</h3>
+                                    <hr />
+                                    <p>
+                                        &cir; This platform was handle the all speakers like motivational, media and
+                                        celebrity
+                                        etc. and also handle speakers data such as videos and books.
+                                    </p>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </section>
+
+                <!--=============== EXPERIENCE ===============-->
+
+                <section class="content-card experience" id="experience">
+                    <h1>Education</h1>
+                    <div class="timeline">
+                        <div class="timeline-items">
+                            <div class="timeline-item">
+                                <div class="timeline-date">2017-2021</div>
+                                <div class="timeline-content">
+                                    <h3>BE - Information Technology</h3>
+                                    <p>
+                                        Shantilal Shah Engineering Collage (GTU)-Bhavnagar, Gujarat
+                                    </p>
+                                    <p>
+                                        &gt; I Have completed Engineering in Information Technology.
+                                        during that time I created and presented many projects with team and
+                                        individually.
+                                    </p>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <h1>Experience</h1>
+                    <div class="timeline">
+                        <div class="timeline-items">
+                            <div class="timeline-item">
+                                <div class="timeline-date">Apr-2023 to Ongoing</div>
+                                <div class="timeline-content">
+                                    <h3>Thinkbiz Technology Pvt Ltd</h3>
+                                    <p>
+                                    </p>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="timeline-items">
+                            <div class="timeline-item">
+                                <div class="timeline-date">Mar-2021 to Mar-2023</div>
+                                <div class="timeline-content">
+                                    <h3>CoodeIt Solution Pvt Ltd</h3>
+                                    <p>
+                                        &gt; Experience of working on web development using javascript and typescript
+                                        technologies platform and successfully completed many pre-defined milestones of
+                                        projects.
+                                    </p>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </section>
+
+                <!--=============== CONTACT ===============-->
+
+                <section class="content-card contact" id="contact">
+                    <h1>Contact</h1>
+                    <p class="fas fa-phone-square-alt"> +91-9601108013</p>
+                    <p class="fas fa-envelope"> kishanbaldaniya2@gmail.com</p>
+                </section>
+            </div>
+        </div>
+    </div>
+</body>
+
+</html>
